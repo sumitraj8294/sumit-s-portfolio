@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+h2 {
+    color: rgb(9, 9, 9);
+    
+}
+.about-tab{
+    display: grid;
+}
+.menu-option{
+    width: 100%;
+}
+.about-me{
+    margin: 20px;
+    font-size: 20px;
+    color: rgb(64, 55, 55);
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+.education{
+    margin: 20px;
+    padding: 15px;
+    font-size: 20px;
+    color: rgb(64, 55, 55);
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+.edu-section{
+    background-color: rgb(223, 255, 245);
+    position: relative;
+    height: 350px;
+}
+.edu-image{
+    position: absolute;
+    margin-left: 20%;
+    width: 20%;
+    margin-top: -60px;
+}
+.edu-details{
+    position:relative;
+    margin-left:55%;
+    font-size: 1.2vw;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    color: rgb(80, 86, 86);
+}
+#edu-pic{
+    width: 300px;
+
+}
+.cards-container{
+
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px 150px 20px 150px ;
+    text-align: center;
+}
+#card-image{
+    padding: 40px 40px 10px 40px;
+}
+
+.projects-container{
+ display: grid;
+ grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+ text-align: center;
+ padding: 20px 100px 20px 100px;
+
+}
+.box5{
+    display: grid;
+    background-color: gray;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align:center;
+    color: white;
+    padding: 30px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+.menu-footer{
+    text-align: left;
+    margin: 20px;
+    margin-left: 30%;
+    font-size: 15px;
+    gap: 20px;
+}
+.menu-footer a{
+    color: white;
+    text-decoration: none;
+}
+.menu-footer h3{
+    text-decoration: underline;
+    text-decoration-color: red;
+
+}
+.copyright{
+    text-align: center;
+    background-color: gray;
+    color: white;
+    padding: 20px;
+}
+
+
+
+/* projects buttons and source codes button*/
+
+#w-app{
+    color: white;
+    background-color: rgb(216, 41, 255);
+    text-decoration: none;
+    border: none;
+    height: 27px;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+    margin-left: 0;
+    box-shadow: 0px 4px 10px 3px rgb(227, 135, 255);
+}
+.app-title{
+    color: rgb(100, 90, 90);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+#w-code{
+    color:gray;
+    background-color: rgb(254, 254, 254);
+    text-decoration: none;
+    border:1px solid;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+
+}
+button{
+    margin-bottom: 10px;
+}
+#w-apps{
+    text-decoration: none;
+    color: white;
+
+}
+#w-codes{
+    text-decoration: none;
+}
+#projects{
+    padding: 20px 30px 0px 30px;
+}
+.box{
+    background-color: rgb(78, 92, 106);
+    padding : 40px 20px 20px 20px;
+    text-align: center;
+    
+}
+h1 {
+    color: white;
+    
+}
+.box img{
+    border-radius: 5px;
+    margin-top: 30px;
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+}
+#profile{
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+}
+.box2 {
+    padding : 20px 0px 20px 10px;
+    margin-top: -25px;
+    
+}
+.box3{
+   
+    padding : 20px 0px 20px 10px;
+    margin-top: -25px;
+    
+
+}
+.box4{
+    padding : 20px 0px 20px 10px;
+    margin-top: -40px;
+
+    
+
+}
+#heading{
+    color: white;
+    font-size:larger;
+    padding: 10px;
+}
+#container1{
+    background-color: rgb(206, 218, 208);
+    color:black;
+    height: 30px;
+
+}
+#container2{
+    color:black;
+
+}
+#container3{
+    background-color: rgb(206, 218, 208);
+    color:black;
+    height: 30px;
+   
+}
+#container4{
+    background-color: rgb(206, 218, 208);
+    color:black;
+    height: 30px;
+
+}
+#cdetails{
+    color: white;
+    font-size: 20px;
+}
+#contact{
+    height: 15px;
+    width: 15px;
+    border-radius: 20px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+#contact2{
+    height: 15px;
+    width: 20px;
+    border-radius: 3px;
+}
+.dynamic-text-color{
+    color: rgb(218, 255, 55);
+}
+#type{
+    color: white;
+    padding-bottom: 15px;
+    font-size: 20px;
+
+}
+header{
+   
+    width: 100%;
+    padding: 16px;
+    position:sticky;
+    top:0;
+    margin-bottom: -10px;
+}
+header nav > a{
+    margin: 16px;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+header nav > a:last-child{
+    margin-right: revert;
+}
+nav a{
+    text-decoration: none;
+    
+
+}
+nav >  a:hover{
+    
+    background-color:rgb(235, 235, 235);
+    padding: 7px;
+    
+
+}
+.default-nav{
+
+    margin-left: 0px;
+    display: inline;
+    margin-bottom: 20px;
+    
+}
+.default-nav a{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    margin-left:20px;
+}
+
+
+.mobile-nav,section.menu{
+    display: none;
+}
+@media (width<500px){
+    .default-nav{
+        display: none;
+    }
+    body{
+        margin-top:none;
+    }
+    .mobile-nav{
+        display: revert;
+        margin-bottom: 0px;
+        width: 100%;
+        display: grid;
+    }
+    #menu-button{
+    
+        display: block;
+        background: transparent;
+        border-radius: 3px;
+        text-align: center;
+        margin-left: 600px;
+    }
+    section.menu{
+        display: revert;
+        height: 0;
+        overflow:hidden;
+        position: fixed;
+        top: 0;
+        z-index: 1;
+        background: white;
+        width:50%;
+        transition:height 0.6s ease-in-out;
+        
+
+    }
+    section.menu ul{
+        list-style: none;
+    }
+    section.menu ul > li {
+        margin-bottom: 16px;
+
+        
+    }
+    section.menu nav {
+        margin-top: 16px;
+        font-size: 1rem;
+    }
+    #close-menu{
+        position: absolute;
+        right: 16px;
+        top: 16px;
+        background: transparent;
+        font-size: x-large;
+        border: none;
+    }
+    .header-menu{
+       width: 100%;
+    }
+}
+
+@media(width<=400px){
+    #profile{
+        width: 25%;
+        border-radius: 100px;
+    
+    }
+}
